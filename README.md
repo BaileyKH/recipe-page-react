@@ -20,8 +20,8 @@ This is a solution to the [Recipe page challenge on Frontend Mentor](https://www
 
 ### Links
 
-- Solution URL: [https://github.com/BaileyKH/recipe-page](https://github.com/BaileyKH/recipe-page)
-- Live Site URL: [https://recipe-page-xi-gold.vercel.app/](https://recipe-page-xi-gold.vercel.app/)
+- Solution URL: [https://github.com/BaileyKH/recipe-page-react](https://github.com/BaileyKH/recipe-page-react)
+- Live Site URL: [https://recipe-page-react-five.vercel.app/](https://recipe-page-react-five.vercel.app/)
 
 ## My process
 

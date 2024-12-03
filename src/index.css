@@ -1,0 +1,84 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-display: swap; 
+  font-family: 'Outfit';
+  font-style: normal;
+  font-weight: 400;
+  src: url('/fonts/outfit/static/Outfit-Regular.ttf') format('woff2'); 
+}
+/* outfit-600 */
+@font-face {
+  font-display: swap; 
+  font-family: 'Outfit';
+  font-style: normal;
+  font-weight: 600;
+  src: url('/fonts/outfit/static/Outfit-SemiBold.ttf') format('woff2'); 
+}
+/* outfit-700 */
+@font-face {
+  font-display: swap; 
+  font-family: 'Outfit';
+  font-style: normal;
+  font-weight: 700;
+  src: url('/fonts/outfit/static/Outfit-Bold.ttf') format('woff2'); 
+}
+
+@font-face {
+  font-display: swap; 
+  font-family: 'Young Serif';
+  font-style: normal;
+  font-weight: 400;
+  src: url('/fonts/young-serif/YoungSerif-Regular.ttf') format('woff2'); 
+}
+
+@layer base {
+  body {
+    @apply bg-white md:bg-stoneOne text-black text-base
+  }
+
+  span {
+    @apply text-stoneSix font-semibold
+  }
+
+  .p-style {
+    @apply font-outfit font-normal text-[10px] text-stoneSix leading-normal
+  }
+
+  .prep-list {
+    @apply relative pl-[10px] before:content-[''] before:absolute before:left-0 before:text-rose-800 before:text-[8px] before:mr-[10px]
+  }
+  .ingredients, .instructions {
+    @apply w-full pb-4 border-b border-b-stoneOneFive
+  }
+
+  .header {
+    @apply text-mainBrown text-lg font-semibold mb-4
+  }
+
+  .ingred-list {
+    @apply relative pl-[10px] before:content-[''] before:absolute before:left-0 before:text-mainBrown before:text-[8px] before:top-0
+  }
+
+  .instruct-list {
+    @apply my-1.5 relative pl-[10px] before:content-[''] before:absolute before:left-0 before:text-mainBrown before:text-[8px] before:top-0
+  }
+
+  .row {
+    @apply border-b border-stoneOneFive
+  }
+
+  .amount {
+    @apply text-mainBrown font-semibold
+  }
+
+  tr {
+    @apply text-stoneSix font-outfit text-[10px] font-normal
+  }
+
+  td {
+    @apply py-2.5 px-5
+  }
+}
